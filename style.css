@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:2rem
+}
+h1{
+    font-size: 3.5rem;
+}
+#box{
+    height: 40vh;
+    width: 40vw;
+background-color: bisque;
+border-radius: 2rem;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+#box h1{
+    font-size: 5rem;
+    color: black;
+}
+
+button{
+    font-size: 2.8rem;
+    padding: 0.5rem;
+    border-radius: 2rem;
+    width: fit-content;
+}
+button:active{
+    scale:0.989
+}
